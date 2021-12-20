@@ -1,7 +1,7 @@
 package Room.Sector;
 
 /**
- * Class Java Room.Room.Sector
+ * Class Java Sector
  *
  * @author Valérian BAL
  * @version 1.0
@@ -64,7 +64,6 @@ public class Sector {
         return distance_line;
     }
 
-    public void displaySector() {
-        System.out.println("Sector Number : " + identifier);
+    public void displaySector(int i) {
     }
 }

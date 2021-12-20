@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Class Java Room.Room
+ * Class Java Room
  *
  * @author Valérian BAL
  * @version 1.0
@@ -119,5 +119,14 @@ public class Room {
      */
     public void displayRoom() {
         System.out.println("Room Number : " + identifier);
+        for(int i=0;i<10;i++)
+        {
+            for(Sector s : sectors)
+            {
+                s.displaySector(i);
+                System.out.print("    ");
+            }
+            System.out.println();
+        }
     }
 }

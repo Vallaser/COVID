@@ -19,5 +19,6 @@ public class Main {
         room1.addSector(s1);
         room1.addSector(s2);
         room1.addSector(s3);
+        room1.displayRoom();
     }
 }
